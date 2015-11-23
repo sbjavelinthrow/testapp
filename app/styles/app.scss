@@ -1,0 +1,16 @@
+$body-bg:white;
+$navbar-default-bg:pink;
+$navbar-default-border:pink;
+
+@import "bootstrap";
+
+
+
+.btn-hello{
+	
+	@extends .btn-danger;
+	background-color: blue;
+	color:white;
+	border-radius:89px;
+
+}
